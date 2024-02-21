@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="buttonandtext" class="flex flex-col justify-center items-center gap-5 h-screen">
+        <img 
+        class="h-40 w-80 container container cover"
+        src="Rick-and-Morty.png" />
+        <!-- <h1 id="text" class="text-[2rem]">Personajes de Rick & Morty </h1> -->
+        <button class="border-2 border-green-600 rounded-lg text-[1.5rem] px-3  text-green-400  hover:bg-green-600 hover:text-green-200 hover:cursor-none" id="button">Mirar Personajes</button>
+    </div>
+    <div id="displayCharacters" class="mt-10 p-10 grid grid-flow-row-dense grid-cols-1 md:grid-cols-3 grid-flow-row gap-5 lg:grid-cols-5 gap-10 cursor-none"></div>
+</body>
+</html>
